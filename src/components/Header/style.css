@@ -1,0 +1,23 @@
+.header{
+    position: relative;
+}
+
+.container-writter{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 3rem;
+    
+}
+
+@media (min-width:700px )  {
+    .container-writter{
+        font-size: 7rem;
+    }
+}

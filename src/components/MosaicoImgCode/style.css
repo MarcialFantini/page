@@ -1,0 +1,21 @@
+.mosaicoImg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    gap: 20px;
+
+    width: 80%;
+    margin: auto;
+}
+
+.itemMosaico{
+
+    border-radius: 5px;
+    box-shadow: 0 0 40px 1px;
+    
+    overflow: hidden;
+}
+
+.itemMosaico img{
+    height: 120%;
+}
