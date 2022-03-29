@@ -6,10 +6,15 @@ import imgPortada from './imgPortada.jpg'
 
 import './style.css'
 
+
+
 const Header = () => {
+
     return (
         <div className='header'>
+
             <div className="container-writter">
+
                 <Typewriter
                     options={{
                         autoStart: true,
