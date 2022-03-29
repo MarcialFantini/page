@@ -54,7 +54,7 @@ const Cards = ({ item }) => {
         <motion.div className='card'
             initial={{
                 opacity: 0.01,
-                x: "20%"
+                x: '20%'
             }}
             transition={{ duration: 2 }}
             animate={{
